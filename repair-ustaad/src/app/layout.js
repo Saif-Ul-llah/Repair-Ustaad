@@ -1,5 +1,6 @@
 import Navbar from './components/navbar'
 import BackImg from './components/backImg'
+import Luncher from './components/luncher'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -12,10 +13,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <div className="relative min-h-screen">
-      <Navbar />
+    <div className="relative min-h-screen overflow-x-hidden">
       <BackImg />
-      
+      <Navbar />
+      {/* <Luncher/> */}
     </div>
   )
 }
