@@ -10,7 +10,6 @@ const Navbar = () => {
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 mt-6">
   <a href="" class="flex items-center">
       <img src="" class="h-8 mr-3" alt="Repair Ustaad" />
-      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Repair Ustaad</span>
   </a>
   <div class="flex md:order-2">
       <button type="button" class=" bg-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-2xl text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-yellow-800">DOWNLOAD</button>
