@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     <div className="relative min-h-screen overflow-x-hidden">
       <BackImg />
       <Navbar />
-      {/* <Luncher/> */}
+      <Luncher/>
     </div>
   )
 }
