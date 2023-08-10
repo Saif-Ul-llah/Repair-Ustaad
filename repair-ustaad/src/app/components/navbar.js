@@ -12,7 +12,7 @@ const Navbar = () => {
       <img src="" class="h-8 mr-3" alt="Repair Ustaad" />
   </a>
   <div class="flex md:order-2">
-      <button type="button" class=" bg-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-2xl text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-yellow-800">DOWNLOAD</button>
+      <button type="button" class="w-60 h-14 bg-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-yellow-300 font-bold rounded-full text-xl px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-yellow-800">DOWNLOAD</button>
       <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
