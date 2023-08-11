@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Pic from '../../../public/images/person-2.png';
+import Play from '../../../public/images/ply.png';
 
 const Luncher = () => {
   return (
@@ -15,12 +16,12 @@ const Luncher = () => {
         <div className='w-full md:w-3/4 mt-10 md:mt-32 px-4'>
 
           <div className='flex flex-row md:flex-row mb-6'>
-            <p className='font-bold md:mr-0 opacity-95 text-left text-5xl md:text-6xl pl-2 md:pl-0 -ml-14'>REPA</p>
+            <p className='font-bold md:mr-0 opacity-95 text-[#2c233bf2] text-left text-5xl md:text-6xl pl-2 md:pl-0 -ml-14'>REPA</p>
             <p className='text-white md:ml-0 opacity-95 text-left font-bold text-5xl md:text-6xl'>IR Ustaad</p>
           </div>
 
           <div className='flex flex-col md:flex-row mb-6'>
-            <p className='text-3xl md:mr-2 font-extrabold mt-2 md:mt-6 -ml-24'>Best Services,</p>
+            <p className='text-3xl md:mr-2 text-[#2c233bf2] font-extrabold mt-2 md:mt-6 -ml-24'>Best Services,</p>
             <p className='text-gray-400 text-xl md:ml-2 font-extrabold mt-2 md:mt-6'>Right people, Right Time</p>
           </div>
 
@@ -29,9 +30,9 @@ const Luncher = () => {
           </div>
 
           <div className='flex flex-col md:flex-row'>
-            <button className="w-full md:w-44 h-12 md:h-16 shadow-inner shadow-black sha bg-[#E3BF1E] text-white font-extrabold rounded-full text-base md:text-lg px-4 py-2 mb-4 md:mb-0 md:mr-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-yellow-800">Download App</button>
+            <button className="w-full md:w-48 h-12 md:h-16 bg-[#2c233bf2] text-white font-extrabold rounded-full text-base md:text-xl px-4 py-2 mb-4 md:mb-0 md:mr-4">Download App</button>
 
-            <button className="w-full md:w-48 shadow-2xl h-12 md:h-16 bg-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-yellow-300 font-semibold rounded-full text-base md:text-lg px-4 py-2 md:ml-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-yellow-800">Discover more</button>
+            <button className="w-full md:w-48 shadow-2xl h-12 md:h-16 bg-white text-[#2c233bf2] hover:bg-white focus:ring-4 font-extrabold rounded-full text-base md:text-xl px-4 py-2 md:ml-4">Discover more</button>
           </div>
         </div>
       </div>
@@ -80,20 +81,46 @@ const Luncher = () => {
         </div>
         </div>
         {/* Work progress section */}
-        <div className='mt-44'>
+    <div className='mt-44'>
        <div className='flex flex-col justify-center items-center'>
-       <h1 className='w-full text-5xl font-bold text-center mb-6'>How does this app work </h1>
+       <h1 className='w-full text-5xl text-[#2c233bf2] font-bold text-center mb-6'>How does this app work </h1>
        </div>
-      <div className='flex '>
-        <Image src={Pic} className='w-96 h-full m-auto'/>
-        <div className='w-2/4'>
-          
+      <div className='flex mt-14 '>
+      <div className='w-96 h-full bg-yellow-400 m-auto'>
+          <Image src={Pic} className='w-96 h-full p-5 pb-0 m-auto'/>
+          <div className='bg-[#2c233bf2] w-80 h-72 rounded-3xl m-auto mb-6 '>
+            <div className='text-4xl text-center font-serif pt-5 text-yellow-400 font-extrabold'> Repair Ustaad</div>
+            <div className='text-white m-auto px-10 py-6 text-center'>Best Services, Right Time,Right People</div>
+            <div className='text-[#E3BF1E] m-auto px-10 text-xl text-center'>Providing Solution </div>
+            <div className='flex flex-col items-center justify-center PY-6'>
+            <button className=' bg-[#E3BF1E] rounded-3xl text-xl font-bold w-20 h-12 '>Next</button>
+            </div>
+          </div>
+      </div>
+        <div className='w-28 flex flex-col items-center m-auto'>
+          <div className='w-24 h-24 rounded-full bg-yellow-400'></div>
+          <div className='w-1 bg-yellow-500 h-64'></div>
+          <div className='w-24 h-24 rounded-full border-yellow-500 border-2'></div>
+          <div className='w-1 bg-yellow-500 h-64'></div>
+          <div className='w-24 h-24 rounded-full border-yellow-500 border-2'></div>
+        </div>
+        <div className='w-2/5 '>
+          <div className='text-center text-5xl text-[#2c233bf2] font-semibold '> Make A Profile</div>
+          <div className='text-center text-5xl my-80 text-[#2c233bf2] font-semibold '> Download App</div>
+          <div className='text-center text-5xl text-[#2c233bf2] font-semibold '> Providing Solution</div>
         </div>
       </div>
-
-        </div>
-
-      
+    </div>
+      {/* Download App */}
+    <div className='w-11/12 h-full m-auto mt-80 rounded-3xl bg-[#2c233bf2]'>
+      <div className='text-center text-white text-5xl font-semibold py-20'>Download App</div>
+      <div className='text-white ml-40 text-5xl font-semibold'>Download  app option </div>
+      <div className='text-white ml-40 mt-20 text-2xl w-1/2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut liquip ex ea commodo consequat</div>
+      <div className='flex'>
+        <div className='w-96 bg-yellow-500'><Image className='w-11' src={Play} /></div>
+        <div></div>
+      </div>
+    </div>  
 
     </div>
   );
