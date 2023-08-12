@@ -120,7 +120,32 @@ const Luncher = () => {
         <div className='w-96 bg-yellow-500'><Image className='w-11' src={Play} /></div>
         <div></div>
       </div>
+      <div className='w-11/12 h-full m-auto mt-80 rounded-3xl bg-[#2c233bf2]'>
+      <div className='text-center text-white text-5xl font-semibold py-20'>Download App</div>
+      <div className='text-white ml-40 text-5xl font-semibold'>Download  app option </div>
+      <div className='text-white ml-40 mt-20 text-2xl w-1/2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut liquip ex ea commodo consequat</div>
+      <div className='flex'>
+        <div className='w-96 bg-yellow-500'><Image className='w-11' src={Play} /></div>
+        <div></div>
+      </div>
+      <div className='w-11/12 h-full m-auto mt-80 rounded-3xl bg-[#2c233bf2]'>
+      <div className='text-center text-white text-5xl font-semibold py-20'>Download App</div>
+      <div className='text-white ml-40 text-5xl font-semibold'>Download  app option </div>
+      <div className='text-white ml-40 mt-20 text-2xl w-1/2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut liquip ex ea commodo consequat</div>
+      <div className='flex'>
+        <div className='w-96 bg-yellow-500'><Image className='w-11' src={Play} /></div>
+        <div></div>
+      </div>
+       <div className='w-11/12 h-full m-auto mt-80 rounded-3xl bg-[#2c233bf2]'>
+      <div className='text-center text-white text-5xl font-semibold py-20'>Download App</div>
+      <div className='text-white ml-40 text-5xl font-semibold'>Download  app option </div>
+      <div className='text-white ml-40 mt-20 text-2xl w-1/2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut liquip ex ea commodo consequat</div>
+      <div className='flex'>
+        <div className='w-96 bg-yellow-500'><Image className='w-11' src={Play} /></div>
+        <div></div>
+      </div>
     </div>  
+<div>tttt</div>
 
     </div>
   );
