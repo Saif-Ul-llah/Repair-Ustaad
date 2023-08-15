@@ -3,6 +3,9 @@ import BackImg from './components/backImg'
 import Luncher from './components/luncher'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Footer from './components/footer'
+import AppSS from './components/appSS'
+import Service from './components/service'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,10 +16,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <div className="relative min-h-screen overflow-x-hidden">
+    <div className="relative min-h-screen overflow-x-hidden p-2">
       <BackImg />
       <Navbar />
       <Luncher/>
+      <AppSS/>
+      <Service/>
+      <Footer/>
     </div>
   )
 }
