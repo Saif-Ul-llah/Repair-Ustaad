@@ -8,7 +8,7 @@ const Luncher = () => {
   return (
     <div>
       {/* first page wiht image intro*/}
-      <div className='flex flex-col md:flex-row '>
+      <div className='flex flex-col md:flex-row' id='home'>
         <Image
           className='mt-24 md:mt-24 md:w-1/4 md:h-96  '
           src={Pic}
@@ -39,7 +39,7 @@ const Luncher = () => {
       </div>
 
         {/* second page services */}
-      <div>
+      <div id='services'>
         <div className='flex flex-col justify-center items-center'>
           <h1 className='w-80 text-5xl font-bold mt-52 text-center mb-6'>Best Services Available</h1>
           <hr className='h-1 w-2/5 bg-yellow-500 rounded-full'/>
@@ -82,7 +82,7 @@ const Luncher = () => {
         </div>
         </div>
         {/* Work progress section */}
-    <div className='mt-44'>
+    <div className='mt-44' id='how'>
        <div className='flex flex-col justify-center items-center'>
        <h1 className='w-full text-5xl text-[#2c233bf2] font-bold text-center mb-6'>How does this app work </h1>
        </div>
@@ -120,9 +120,9 @@ const Luncher = () => {
       <div className='text-white ml-3 md:ml-40 text-2xl md:text-5xl font-semibold'>Download  app option </div>
       <div className='text-white ml-3 md:ml-40 mt-20 md:text-2xl md:w-1/2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut liquip ex ea commodo consequat</div>
       <div className='md:flex mt-10'>
-        <div className='md:w-[507px] md:h-[118px] m-auto bg-yellow-500 p-3 md:text-4xl text-2xl font-semibold text-white rounded-full justify-center flex mb-6'><Image className='md:w-24 pr-5 pl-0 md:h-24 ' src={Play} /> Download <br/> Google Play </div>
+        <div className='md:w-[507px] md:h-[118px] m-auto w-full h-20 bg-yellow-500 p-3 md:text-4xl text-2xl font-semibold text-white rounded-full justify-center flex mb-6'><Image className='md:w-24 pr-5 pl-0 md:h-24 ' src={Play} /> Download <br/> Google Play </div>
         
-        <div className='md:w-[507px] md:h-[118px] p-3 m-auto bg-white rounded-full text-2xl md:text-4xl font-semibold  justify-center flex '><Image className='w-24 pr-5 pl-0  h-24 ' src={Apple} /> Download <br/> Apple store </div>
+        <div className='md:w-[507px] md:h-[118px] p-3 m-auto w-full h-20 bg-white rounded-full text-2xl md:text-4xl font-semibold  justify-center flex '><Image className='md:w-24 pr-5 pl-0 md:h-24 ' src={Apple} /> Download <br/> Apple store </div>
       </div>
     </div>  
 
